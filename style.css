@@ -1,0 +1,68 @@
+/*
+Theme Name: cpwpbs
+Theme URI: http://cpwpbs.commprog.com
+Description: A wordpress-bootstrap integration theme. This theme is based on and inspired by Zac Gordon's wpbootstrap theme. http://blog.teamtreehouse.com/responsive-wordpress-bootstrap-theme-tutorial
+Author: Mario Banushi
+Author URI: http://www.commprog.com
+Version: 1.0
+Tags: responsive, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+
+@import url('bootstrap/css/bootstrap.min.css');
+
+/**** top *********************************************************************/
+.top-menu { float: left; padding: 4px 0; }
+.top-menu > li { display: inline-block; }
+#top-zone { background-color: rgb(90, 90, 90); }
+.navbar>.container .navbar-brand { position: relative; z-index: 999; }
+.navbar { margin-bottom: 0; }
+.navbar-bot-border { background-image: url("bootstrap/img/navbar-bottom-border.jpg"); height: 7px; }
+
+
+/**** bot *********************************************************************/
+.bot-zone-top-border { background-image: url("bootstrap/img/footer-top-border.jpg"); height: 7px; }
+#bot-zone { padding-top: 20px; background-color: #000; }
+#bot-zone footer { padding: 8px 19px; }
+#bot-zone footer hr { margin: 10px 0; }
+#menu-footer-sitemap > li > a { color: #000; }
+#menu-footer-sitemap .sub-menu { list-style-type: none; padding-left: 3px; margin-top: 15px; }
+#menu-footer-sitemap .sub-menu > li { float: none; padding: 3px 0; }
+.post-excerpt { padding: 0 0 40px 0; }
+
+/**** bot: footer-links-and-copyright *****************************************/
+#footer-links-copyright { color: white; }
+#footer-links-copyright a { color: white; }
+#menu-footer-links { list-style-type: none; padding-left: 0; }
+#menu-footer-links li { display: inline-block; padding: 0 10px 0 5px; border-right: solid 1px #fff; }
+#menu-footer-links li:last-child { border-right: none; }
+#footer-links-copyright .widget-item:last-child { text-align: right; }
+.menu-footer-social-container { display: inline-block; margin-left: 15px; }
+.xoxo { list-style-type: none; padding-left: 0; }
+.xoxo li { display: inline-block; }
+/**** search ******************************************************************/
+.search-wrapper { border: solid 1px white; border-top-right-radius: 13px; border-bottom-left-radius: 13px; border-bottom-right-radius: 13px; border-top-left-radius: 13px; padding: 0 10px 0 5px; }
+.search-wrapper .glyphicon { color: white; font-size: 13px; }
+.search-wrapper .search-field { width: 90px; border: none; outline: none; color: #fff; background-color: #000; }
+.navbar-collapse { position: relative; }
+.search-form { position: absolute; right: 0; bottom: 9px; }
+@media (max-width:768px) {
+	.search-form { width: 250px; position: relative; float: right; border: none; box-shadow: 0 0; }
+}
+
+/**** per karuselin ***********************************************************/
+.container .jumbotron { padding: 0; }
+#home-slider .wp-post-image { min-width: 100%; max-height: 400px; }
+#home-slider .carousel-caption { left: 75%; right: 0; width: 25%; padding-left: 10px; padding-right: 10px; top: 0; background-color: rgba(0,0,0,0.5); height: 100%; padding-top: 5%; }
+#home-slider .carousel-caption h3 { font-size: 20px; }
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left { left: -25%; }
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right { right: -25%; }
+.carousel-indicators { top: 100%; left: 60%; text-align: right; }
+.carousel-indicators li { background-color: #000; }
+.carousel-indicators li.active { background-color: #999; }
+.carousel-indicators li, .carousel-indicators li.active { width: 15px; height: 15px; margin: 1px 5px; }
