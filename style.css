@@ -18,6 +18,8 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 .top-menu { float: left; padding: 4px 0; }
 .top-menu > li { display: inline-block; color:black; }
 #top-zone { background-color: white; }
+.top-menu > li { display: inline-block; }
+#top-zone { background-color: rgb(90, 90, 90); }
 .navbar>.container .navbar-brand { position: relative; z-index: 999; }
 .navbar { margin-bottom: 0; }
 .navbar-bot-border { background-image: url("bootstrap/img/navbar-bottom-border.jpg"); height: 7px; }
@@ -34,7 +36,6 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 .post-excerpt { padding: 0 0 40px 0; }
 
 /**** bot: footer-links-and-copyright *****************************************/
-
 #footer-links-copyright { color: white; }
 #footer-links-copyright a { color: white; }
 #menu-footer-links { list-style-type: none; padding-left: 0; }
@@ -50,6 +51,10 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 .search-wrapper { border: solid 1px white; border-top-right-radius: 13px; border-bottom-left-radius: 13px; border-bottom-right-radius: 13px; border-top-left-radius: 13px; padding: 0 10px 0 5px; }
 .search-wrapper .glyphicon { color: white; font-size: 13px; }
 .search-wrapper .search-field { width: 90px; border: none; outline: none; color: #fff; background-color: #222; }
+/**** search ******************************************************************/
+.search-wrapper { border: solid 1px white; border-top-right-radius: 13px; border-bottom-left-radius: 13px; border-bottom-right-radius: 13px; border-top-left-radius: 13px; padding: 0 10px 0 5px; }
+.search-wrapper .glyphicon { color: white; font-size: 13px; }
+.search-wrapper .search-field { width: 90px; border: none; outline: none; color: #fff; background-color: #000; }
 .navbar-collapse { position: relative; }
 .search-form { position: absolute; right: 0; bottom: 9px; }
 @media (max-width:768px) {
@@ -75,3 +80,4 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 #menu-main-menu.nav a{color:black;  font-weight: bold; font-size: 14px; font-family: arial; padding:7px 10px 4px 10px;text-transform: uppercase;}
 #menu-main-menu.nav a:hover{background-color:black; color:white;}
 header ul#menu-main-menu.nav li {margin-right: 26px; margin-top: 10px;margin-bottom: 10px;}
+.carousel-indicators li, .carousel-indicators li.active { width: 15px; height: 15px; margin: 1px 5px; }
